@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+#handle {
+  height: 60px;
+  width:20px;
+  position:absolute;
+  top: 190px;
+  left:405px;
+}
+#chair{
+  display:none;
+  height: 130px;
+  width:55px;
+  position:absolute;
+  top: 215px;
+  left:455px;
+}
+#row1{
+  height: 100%;
+  min-height: 100%;
+}
+#leftCol{
+  height: 100%;
+  /*background-image: url("../img/doorClosed.JPG");
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);*/
+}
+#doorClosed {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);*/
+}
+#doorOpen{
+  display: none;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);*/
+}
+#chairDown{
+  display: none;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);*/
+}
+
+.clickable{
+  cursor:help;
+  color: #0088cc;
+  /*cursor: sw-resize;*/
+}
+.clickable:hover{
+  text-decoration: underline;
+}
+#handleText{
+  display: none;
+}
